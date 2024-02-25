@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #fbbc00;
+        }
+        @font-face{
+            font-family: 'Digital Numbers Regular';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff') format('woff');
+        }
+        .body{
+            display: block;
+            margin: 125px auto;
+            height: 470px;
+            width: 400px;
+            background-color: #d8e0e2;
+            display: flex;
+            flex-direction: column;
+            border-radius: 30px;
+        }
+        .screen-bg{
+        background-color: #a5bacb;
+        height: 125px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        }
+        .screen{
+            font-family: 'Digital Numbers Regular';
+            background-color: #d1dcba;
+            display: block;
+            margin: 40px auto;
+            width: 80%;
+            height: 50px;
+            text-align: right;
+        }
+        .btns{
+           /* background-color: aqua; */
+            height: 355px;
+            margin: 15px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .hnw-for-btn{
+            height: 50px;
+            width: 65px;
+        }
+        .bt{
+            margin: 5px;
+        }
+        .bt1{
+            height: 110px;
+        }
+        .sfs{
+            font-size: 30px;
+        }
+        .fs{
+            font-size: 20px;
+        }
+        .c1{
+            background-color: #4d738a;
+        }
+        .c2{
+            background-color: #7998ac;
+        }
+        .c3{
+            background-color: #fd8103;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="screen-bg">
+                <input type="text" class="screen sfs" value="0"/>
+        </div>
+        <div class="btns">
+            <button class="bt hnw-for-btn c1 fs">MC</button>
+            <button class="bt hnw-for-btn c2 fs">7</button>
+            <button class="bt hnw-for-btn c2 fs">4</button>
+            <button class="bt hnw-for-btn c2 fs">1</button>
+            <button class= "bt hnw-for-btn c2 fs">0</button>
+
+            <button class="bt hnw-for-btn c1 fs">M+</button>
+            <button class="bt hnw-for-btn c2 fs">8</button>
+            <button class="bt hnw-for-btn c2 fs">5</button>
+            <button class="bt hnw-for-btn c2 fs">2</button>
+            <button class="bt hnw-for-btn c2 fs">.</button>
+            
+            <button class="bt hnw-for-btn c1 fs">+</button>
+            <button class="bt hnw-for-btn c2 fs">9</button>
+            <button class="bt hnw-for-btn c2 fs">6</button>
+            <button class="bt hnw-for-btn c2 fs">3</button>
+            <button class="bt hnw-for-btn c2 fs">%</button>
+
+            <button class="bt hnw-for-btn c1 fs">X</button>
+            <button class="bt hnw-for-btn c2 fs">-</button>
+            <button class="bt hnw-for-btn c2 fs">+</button>
+            <button class="bt bt1 hnw-for-btn c3 fs">=</button>
+        </div>
+    </div>
+</body>
+</html>
